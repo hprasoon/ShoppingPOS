@@ -1,0 +1,14 @@
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\bin\Debug\netcoreapp2.0\ShoppingWebService.deps.json
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\bin\Debug\netcoreapp2.0\ShoppingWebService.runtimeconfig.json
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\bin\Debug\netcoreapp2.0\ShoppingWebService.runtimeconfig.dev.json
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\bin\Debug\netcoreapp2.0\ShoppingWebService.dll
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\bin\Debug\netcoreapp2.0\ShoppingWebService.pdb
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\bin\Debug\netcoreapp2.0\ShoppingDataAccess.dll
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\bin\Debug\netcoreapp2.0\ShoppingDataAccess.pdb
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\obj\Debug\netcoreapp2.0\ShoppingWebService.csprojAssemblyReference.cache
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\obj\Debug\netcoreapp2.0\ShoppingWebService.csproj.CoreCompileInputs.cache
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\obj\Debug\netcoreapp2.0\ShoppingWebService.AssemblyInfoInputs.cache
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\obj\Debug\netcoreapp2.0\ShoppingWebService.AssemblyInfo.cs
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\obj\Debug\netcoreapp2.0\ShoppingWebService.csproj.CopyComplete
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\obj\Debug\netcoreapp2.0\ShoppingWebService.dll
+C:\Sample Projects\ShoppingPOS\ShoppingWebService\obj\Debug\netcoreapp2.0\ShoppingWebService.pdb

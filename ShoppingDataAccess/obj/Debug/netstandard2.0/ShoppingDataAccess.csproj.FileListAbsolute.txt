@@ -1,0 +1,9 @@
+C:\Sample Projects\ShoppingPOS\ShoppingDataAccess\bin\Debug\netstandard2.0\ShoppingDataAccess.deps.json
+C:\Sample Projects\ShoppingPOS\ShoppingDataAccess\bin\Debug\netstandard2.0\ShoppingDataAccess.dll
+C:\Sample Projects\ShoppingPOS\ShoppingDataAccess\obj\Debug\netstandard2.0\ShoppingDataAccess.csproj.CoreCompileInputs.cache
+C:\Sample Projects\ShoppingPOS\ShoppingDataAccess\obj\Debug\netstandard2.0\ShoppingDataAccess.AssemblyInfoInputs.cache
+C:\Sample Projects\ShoppingPOS\ShoppingDataAccess\obj\Debug\netstandard2.0\ShoppingDataAccess.AssemblyInfo.cs
+C:\Sample Projects\ShoppingPOS\ShoppingDataAccess\bin\Debug\netstandard2.0\ShoppingDataAccess.pdb
+C:\Sample Projects\ShoppingPOS\ShoppingDataAccess\obj\Debug\netstandard2.0\ShoppingDataAccess.dll
+C:\Sample Projects\ShoppingPOS\ShoppingDataAccess\obj\Debug\netstandard2.0\ShoppingDataAccess.pdb
+C:\Sample Projects\ShoppingPOS\ShoppingDataAccess\obj\Debug\netstandard2.0\ShoppingDataAccess.csprojAssemblyReference.cache

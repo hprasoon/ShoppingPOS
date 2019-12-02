@@ -1,0 +1,45 @@
+<table class='table table-striped'>
+    <tr *ngIf = "product.product_Id > 0">
+      <td>Id</td>
+      <td>
+      <input type="text" [(ngModel)]="product.product_Id"/>
+    </td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td>
+        <input type="text" [(ngModel)]="product.product_Name"/>
+    </tr>
+    <tr>
+      <td>Company</td>
+      <td>
+          <input type="text" [(ngModel)]="product.product_Company"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>
+          <input type="text" [(ngModel)]="product.product_Description"/>
+      </td>
+    </tr>
+    <tr>
+      <td>MFG Date</td>
+      <td>
+          <input type="datetime" [(ngModel)]="product.mfg_Date"/>
+      </td>
+    </tr>
+    <tr>
+      <td>EXP Date</td>
+      <td>
+          <input type="datetime" [(ngModel)]="product.exp_Date"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Active</td>
+      <td>
+          <input type="text" [(ngModel)]="product.isActive"/>
+      </td>
+    </tr>
+</table>
+
+<div><button (click)="saveProduct()">Save</button><button>Cancel</button></div>

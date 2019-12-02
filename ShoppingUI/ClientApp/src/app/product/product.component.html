@@ -1,0 +1,34 @@
+<p *ngIf="!products"><em>Loading...</em></p>
+
+<table class='table table-striped' *ngIf="products">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Company</th>
+      <th>Description</th>
+      <th>MFG Date</th>
+      <th>EXP Date</th>
+      <th>Active</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <td>{{ product.product_Id }}</td>
+      <td>{{ product.product_Name }}</td>
+      <td>{{ product.product_Company }}</td>
+      <td>{{ product.product_Description }}</td>
+      <td>{{ product.mfg_Date }}</td>
+      <td>{{ product.exp_Date }}</td>
+      <td>{{ product.isActive }}</td>
+      <td><a [routerLink]='["/editProduct/",product.product_Id]'>Edit</a></td>
+      <td><a (click)="deleteProduct(product.product_Id)" href="#">Delete</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<div >
+    <a class="btn-primary" [routerLink]='["/addproduct"]'>Add Product</a>
+</div>
