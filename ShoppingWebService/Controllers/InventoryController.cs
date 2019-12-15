@@ -6,7 +6,6 @@ using ShoppingDataAccess.Repository;
 
 namespace ShoppingWebService.Controllers
 {
-    [Produces("application/json")]
     [Route("inventory")]
     public class InventoryController : Controller
     {

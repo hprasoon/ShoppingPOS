@@ -7,8 +7,6 @@ using ShoppingDataAccess.Repository;
 
 namespace ShoppingWebService.Controllers
 {
-    [EnableCors("MyPolicy")]
-    [Produces("application/json")]
     [Route("products")]
     public class ProductsController : Controller
     {

@@ -28,9 +28,13 @@ export class AddProductComponent implements OnInit {
   saveProduct() {
     let newProduct = new Product();
     newProduct = this.product;
-    if(!newProduct.hasOwnProperty('product_Id'))
+    if (!newProduct.hasOwnProperty('product_Id')) {
       newProduct.product_Id = 0;
-    this.productService.addProduct(newProduct);
+      this.productService.addProduct(newProduct);
+    }
+    else {
+      this.productService.updateProduct(newProduct);
+    }
   }
 
   loadProduct(id:number) : void

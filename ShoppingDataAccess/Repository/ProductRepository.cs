@@ -38,8 +38,7 @@ namespace ShoppingDataAccess.Repository
                 _shoppinDBContext.Products.Add(product);
             else
             {
-                var updateProduct = _shoppinDBContext.Products.Where(x => x.product_Id == product.product_Id).First();
-                updateProduct = product;
+                _shoppinDBContext.Products.Update(product);
             }
             _shoppinDBContext.SaveChanges();
             return true;
@@ -47,9 +46,7 @@ namespace ShoppingDataAccess.Repository
 
         public bool Update(Product product)
         {
-            var updateProduct = _shoppinDBContext.Products.Where(x => x.product_Id == product.product_Id).First();
-            product = updateProduct;
-
+            _shoppinDBContext.Products.Update(product);
             _shoppinDBContext.SaveChanges();
             return true;
         }
